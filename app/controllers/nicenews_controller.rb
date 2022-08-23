@@ -33,7 +33,6 @@ class NicenewsController < ApplicationController
         @noticia = Noticia.new(noticia_params)
         @noticia.save
         redirect_to nicenews_noticias_path
-
     end
     private
     def noticia_params
